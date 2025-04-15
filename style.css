@@ -42,14 +42,18 @@ label{
     font-size: 25px;
 }
 .form{
-    width: 40%;
+    width: 95%;
     margin:5px;
     padding: 10px;
     background-color:rgb(149, 135, 230);
     box-shadow: 0, 0, 5px, 1px;
-    margin-top: 10px;
+    margin-top: 5px;
     border: 2px solid #fff;
     border-radius: 12px;
     
+}
+@media (max-with:768px){
+    background{ 
+        padding:20px}
 }
 
