@@ -9,7 +9,7 @@ document.getElementById('demo1').innerText = 'fill in the blank spaces'
 else if (confirm_password === password ) {
   alert('Access granted') 
 } else {
-    alert('Access denied');
+    alert('unmatched password');
 }
 
 }  
