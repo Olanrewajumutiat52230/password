@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+.background{
+    background-color: blanchedalmond;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background-image:url('./purple-padlock-with-password-approved-icon-data-protection-private-access-icon-password-security-access-privacy-protection-personal-information-security-concept-3d-rendering-illustration_473922-903.avif');
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: -5;
+}
+h2{
+    
+    font-size: 40px;
+}
+input,button{
+    width: 100%;
+    padding: 15px;
+    border-radius: 15px;
+    outline: 0;
+    border: 2px solid rgba(120, 120, 120);
+    background-color:#e7e1e1;
+    margin-top: 10px;
+     
+}
+button{
+    font-size: 20px;
+    
+}
+button:hover{
+    color: red;
+}
+
+label{
+    font-size: 25px;
+}
+.form{
+    width: 40%;
+    margin:5px;
+    padding: 10px;
+    background-color:rgb(149, 135, 230);
+    box-shadow: 0, 0, 5px, 1px;
+    margin-top: 10px;
+    border: 2px solid #fff;
+    border-radius: 12px;
+    
+}
+
